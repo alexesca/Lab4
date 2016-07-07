@@ -1,0 +1,5 @@
+C:\Users\Alex\Documents\Visual Studio 2015\Projects\WpfApplication3\Student\bin\Debug\Student.dll
+C:\Users\Alex\Documents\Visual Studio 2015\Projects\WpfApplication3\Student\bin\Debug\Student.pdb
+C:\Users\Alex\Documents\Visual Studio 2015\Projects\WpfApplication3\Student\obj\Debug\Student.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2015\Projects\WpfApplication3\Student\obj\Debug\Student.dll
+C:\Users\Alex\Documents\Visual Studio 2015\Projects\WpfApplication3\Student\obj\Debug\Student.pdb
