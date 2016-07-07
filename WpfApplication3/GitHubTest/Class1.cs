@@ -8,5 +8,10 @@ namespace GitHubTest
 {
     public class Class1
     {
+        int a =32432434;
+        public bool abc()
+        {
+            return false;
+        }
     }
 }
