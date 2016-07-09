@@ -25,6 +25,11 @@ namespace WpfApplication3
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        //Method from clicking on File --> Load in the menu bar
+        private void menuLoad_Click(object sender, RoutedEventArgs e)
+        {
             // Create two DataTable instances.
             DataTable table1 = new DataTable("patients");
             ReadFile.readFile("testFile.csv", table1);
@@ -32,9 +37,6 @@ namespace WpfApplication3
             DataSet set = new DataSet("office");
             set.Tables.Add(table1);
             dataGrid.ItemsSource = set.Tables["patients"].DefaultView;
-             
         }
     }
 }
-
-//Test by Andy for his branch
