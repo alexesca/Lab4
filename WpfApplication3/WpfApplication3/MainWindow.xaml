@@ -15,6 +15,7 @@
             <Menu DockPanel.Dock="Top" Width="Auto" Margin="0,0,-0.4,0">
                 <MenuItem Header="_File" Width="Auto">
                     <MenuItem Header="_Load"  Click="menuLoad_Click"></MenuItem>
+                    <MenuItem Header="_Save"  Click="menuSave_Click"></MenuItem>
                 </MenuItem>
             </Menu>
             <StackPanel></StackPanel>

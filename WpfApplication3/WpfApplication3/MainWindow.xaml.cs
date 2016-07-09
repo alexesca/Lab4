@@ -38,5 +38,11 @@ namespace WpfApplication3
             set.Tables.Add(table1);
             dataGrid.ItemsSource = set.Tables["patients"].DefaultView;
         }
+
+        private void menuSave_Click(object sender, RoutedEventArgs e)
+        {
+            //Save data to CSV file here
+
+        }
     }
 }
