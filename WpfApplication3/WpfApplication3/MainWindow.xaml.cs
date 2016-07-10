@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApplication3
+namespace Lab_04
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -27,7 +27,7 @@ namespace WpfApplication3
             InitializeComponent();
         }
 
-        //Method from clicking on File --> Load in the menu bar
+        //Method from clicking on File >> Load in the menu bar [Andy]
         private void menuLoad_Click(object sender, RoutedEventArgs e)
         {
             // Create two DataTable instances.
@@ -43,6 +43,12 @@ namespace WpfApplication3
         {
             //Save data to CSV file here
 
+        }
+
+        private void menuExit_Click(object sender, RoutedEventArgs e)
+        {
+            // Code to exit program [Andy]
+            Environment.Exit(0);
         }
     }
 }
