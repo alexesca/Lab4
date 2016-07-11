@@ -1,4 +1,10 @@
-﻿using Lab3;
+﻿//Project: Lab 4
+//Description: Read/Write using WPF application
+//Name: Alex Moreno, Andy Wold, Bethaly Tenango
+//Date: 11 Jul 2016
+//Instructor: Brother Daniel Masterson
+//Course: CS 176 - Windows Desktop Development
+
 using System;
 using System.Collections.Generic;
 using System.Data;

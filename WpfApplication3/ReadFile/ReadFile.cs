@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace Lab3
+namespace Lab_04 //Changed namespace to match the project
 {
     public class ReadFile
     {
@@ -20,7 +20,7 @@ namespace Lab3
                 //Trying to read the file
                 using (StreamReader reader = new StreamReader(file))
                 {
-
+                    //left blank?
                 }
             }
             catch (Exception e)
