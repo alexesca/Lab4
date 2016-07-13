@@ -116,6 +116,7 @@ namespace Lab3
             int index = 2;
             foreach (double grade in grades)
             {
+
                 row[index] = grade;
                 index++;
             }
