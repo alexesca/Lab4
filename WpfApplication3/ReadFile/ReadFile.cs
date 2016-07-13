@@ -15,7 +15,6 @@ namespace Lab3
         //This method checks if the file already exists
         public static bool checkIfFileExists(string file)
         {
-
             try
             {
                 //Trying to read the file
@@ -33,10 +32,9 @@ namespace Lab3
             return true;
         }
 
-        //This checks if teh file may be created so that we can read it and writ it. 
+        //This checks if the file may be created so that we can read it and write it. 
         public static bool checkIfFileMayBeCreated(String file)
         {
-
             try
             {
                 if (file.IndexOfAny(Path.GetInvalidFileNameChars()) >= 0)
@@ -59,7 +57,7 @@ namespace Lab3
             }
         }
 
-        //Reads teh file
+        //Reads the file
         public static List<Student> readFile(String file, DataTable table1)
         {
             List<Student> list = new List<Student>();
@@ -90,8 +88,6 @@ namespace Lab3
                     }
                     //Conditional
                     while (!reader.EndOfStream);
-               
-
                 }
             }
             //Catches any exception
@@ -99,10 +95,8 @@ namespace Lab3
             {
                 Console.WriteLine("{0} Exception .", e);
             }
-
             return list;
         }
-
 
         // Append student to list
         public static void addStudentToList(DataTable table1, String str)
@@ -137,7 +131,7 @@ namespace Lab3
 
         }
 
-        // Retrieve name from given data
+        // Retrieve first name from given data
         public static String getFirstName(string str)
         {
             int index = str.IndexOf(' ');
@@ -145,7 +139,7 @@ namespace Lab3
             return firstName;
         }
 
-        // Retrieve lastname from given data
+        // Retrieve last name from given data
         public static string getLastName(string str)
         {
             int index = str.IndexOf(' ');
@@ -193,7 +187,6 @@ namespace Lab3
                     tempString += character;
                 }
             }
-
             return data;
         }
     }
