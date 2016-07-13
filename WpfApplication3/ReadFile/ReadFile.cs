@@ -1,5 +1,4 @@
-﻿using Lab3;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
@@ -83,7 +82,6 @@ namespace Lab_04 //Changed namespace to match the project
                             //Adding students to the list
                             addStudentToList(table1, str);
                         }
-
                         line++;
                     }
                     //Conditional
@@ -127,7 +125,6 @@ namespace Lab_04 //Changed namespace to match the project
             table1.Columns.Add(values[3]);
             table1.Columns.Add(values[4]);
             table1.Columns.Add(values[5]);
-
         }
 
         // Retrieve first name from given data

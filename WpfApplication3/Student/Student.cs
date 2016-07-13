@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3
+namespace Lab_04
 {
     // Create student class that carries an ID of a name and a list of grades from different assignments
     public class Student

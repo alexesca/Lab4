@@ -43,6 +43,7 @@ namespace Lab_04
             DataSet set = new DataSet("office");
             set.Tables.Add(table1);
             dataGrid.ItemsSource = set.Tables["patients"].DefaultView;
+            dataGrid.SelectedIndex;
         }
 
         private void menuSave_Click(object sender, RoutedEventArgs e)
