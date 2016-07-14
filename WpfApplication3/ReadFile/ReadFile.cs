@@ -108,6 +108,7 @@ namespace Lab_04 //Changed namespace to match the project
             int index = 2;
             foreach (double grade in grades)
             {
+
                 row[index] = grade;
                 index++;
             }

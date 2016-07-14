@@ -16,3 +16,6 @@ C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\WpfApplication3\obj\Debug\WpfApp
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\WpfApplication3\obj\Debug\Lab 04.csproj.GenerateResource.Cache
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
+C:\Users\Alex\Google Drive\GitHub\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe.config
+C:\Users\Alex\Google Drive\GitHub\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
+C:\Users\Alex\Google Drive\GitHub\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
