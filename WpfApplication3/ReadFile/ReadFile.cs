@@ -1,5 +1,4 @@
-﻿using Lab3;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
@@ -8,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace Lab3
+namespace Lab_04 //Changed namespace to match the project
 {
     public class ReadFile
     {
@@ -20,7 +19,7 @@ namespace Lab3
                 //Trying to read the file
                 using (StreamReader reader = new StreamReader(file))
                 {
-
+                    //left blank?
                 }
             }
             catch (Exception e)
@@ -83,7 +82,6 @@ namespace Lab3
                             //Adding students to the list
                             addStudentToList(table1, str);
                         }
-
                         line++;
                     }
                     //Conditional
@@ -128,7 +126,6 @@ namespace Lab3
             table1.Columns.Add(values[3]);
             table1.Columns.Add(values[4]);
             table1.Columns.Add(values[5]);
-
         }
 
         // Retrieve first name from given data

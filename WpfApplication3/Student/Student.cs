@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3
+namespace Lab_04
 {
-    /* Create student class that carries an ID of a name
-        * and a list of grades from different assignments */
+    // Create student class that carries an ID of a name and a list of grades from different assignments
     public class Student
     {
         public List<Double> grades = new List<Double>();
@@ -32,9 +31,9 @@ namespace Lab3
             this.gpa = studentAverage;
         }
 
+        // Calcuate average grade for entire class
         public static void studentAverage(List<Student> students)
         {
-
             foreach (var student in students)
             {
                 double gpa = 0;
