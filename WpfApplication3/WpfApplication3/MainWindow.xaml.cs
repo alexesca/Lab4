@@ -1,7 +1,7 @@
 ﻿//Project: Lab 4
 //Description: Read/Write using WPF application
 //Name: Alex Moreno, Andy Wold, Bethaly Tenango
-//Date: 11 Jul 2016
+//Date: 13 Jul 2016
 //Instructor: Brother Daniel Masterson
 //Course: CS 176 - Windows Desktop Development
 
@@ -37,18 +37,18 @@ namespace Lab_04
         private void menuLoad_Click(object sender, RoutedEventArgs e)
         {
             // Create two DataTable instances.
-            DataTable table1 = new DataTable("patients");
+            DataTable table1 = new DataTable("grades");
             ReadFile.readFile("testFile.csv", table1);
             // Create a DataSet and put both tables in it.
             DataSet set = new DataSet("office");
             set.Tables.Add(table1);
-            dataGrid.ItemsSource = set.Tables["patients"].DefaultView;
-            dataGrid.SelectedIndex;
+            dataGrid.ItemsSource = set.Tables["grades"].DefaultView;
         }
 
         private void menuSave_Click(object sender, RoutedEventArgs e)
         {
             //Save data to CSV file here
+            //WriteFile.writeFile(table1,"testFile.csv");
 
         }
 
