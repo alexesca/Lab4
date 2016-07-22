@@ -96,6 +96,12 @@ namespace Lab_04 {
             {
             case 1:
             this.dataGrid = ((System.Windows.Controls.DataGrid)(target));
+            
+            #line 10 "..\..\MainWindow.xaml"
+            this.dataGrid.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.dataGrid_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 2:
             this.textBox = ((System.Windows.Controls.TextBox)(target));

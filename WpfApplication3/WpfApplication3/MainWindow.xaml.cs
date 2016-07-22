@@ -6,6 +6,7 @@
 //Course: CS 176 - Windows Desktop Development
 
 using System;
+using static System.Console;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -56,6 +57,11 @@ namespace Lab_04
         {
             // Code to exit program [Andy]
             Environment.Exit(0);
+        }
+
+        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            WriteLine("You have changed something");
         }
     }
 }

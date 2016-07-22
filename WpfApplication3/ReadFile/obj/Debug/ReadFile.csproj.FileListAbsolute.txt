@@ -12,3 +12,10 @@ C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\ReadFile\bin\Debug\Student.pdb
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\ReadFile\obj\Debug\ReadFile.csprojResolveAssemblyReference.cache
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\ReadFile\obj\Debug\ReadFile.dll
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\ReadFile\obj\Debug\ReadFile.pdb
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\bin\Debug\ReadFile.dll
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\bin\Debug\ReadFile.pdb
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\bin\Debug\Student.dll
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\bin\Debug\Student.pdb
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\obj\Debug\ReadFile.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\obj\Debug\ReadFile.dll
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\ReadFile\obj\Debug\ReadFile.pdb

@@ -8,3 +8,8 @@ C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\Student\bin\Debug\Student.pdb
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\Student\obj\Debug\Student.csprojResolveAssemblyReference.cache
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\Student\obj\Debug\Student.dll
 C:\Users\Andy\Source\Repos\Lab4\WpfApplication3\Student\obj\Debug\Student.pdb
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\Student\bin\Debug\Student.dll
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\Student\bin\Debug\Student.pdb
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\Student\obj\Debug\Student.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\Student\obj\Debug\Student.dll
+C:\Users\Andy\Source\Repos\Lab4b\WpfApplication3\Student\obj\Debug\Student.pdb

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="484.211" Width="843.421">
     <Grid>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Height="342" Width="815"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Height="342" Width="815" SelectionChanged="dataGrid_SelectionChanged"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="37" Margin="10,54,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="673"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="703,54,0,0" VerticalAlignment="Top" Width="122" Height="37"/>
 
